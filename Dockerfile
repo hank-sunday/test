@@ -4,7 +4,7 @@ EXPOSE 8080
 
 COPY . /usr/local/go/src/github.com/hank-sunday/test
 
-WORKDIR /usr/local/go/src/github.com/asiainfoLDP/test
+WORKDIR /usr/local/go/src/github.com/hank-sunday/test
 
 RUN go get github.com/tools/godep \
     && godep go build 
